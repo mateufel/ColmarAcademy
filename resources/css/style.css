@@ -61,7 +61,7 @@ a:active {
 .read-more {
   color: #DD6E42;
   font-weight: bold;
-  transition: font-size 75ms ease-in 30ms;
+  transition: font-size 75ms ease-in 50ms;
 }
 
 .read-more:hover {
@@ -209,11 +209,12 @@ header img {
   text-align: center;
   background-color: #303c6c;
   color: #EAEAEA;
-  transition: background-color 200ms ease-in 0ms;
+  transition: background-color 200ms ease-in 0ms, transform 200ms ease-in 0ms;
 }
 
 .button:hover {
   background-color: #DD6E42;
+  transform: scale(1.1);
 }
 
 /* Header mobile version */
@@ -259,6 +260,7 @@ header img {
   padding: 0px 24px;
   width: 60%;
   height: auto;
+  transition: background-color 100ms ease-in 100ms;
 }
 
 .left-information-box:hover {
@@ -307,6 +309,7 @@ header img {
   align-items: center;
   width: 100%;
   border-bottom: 1px solid #586994;
+  transition: background-color 100ms ease-in 100ms;
 }
 
 .info-item:last-child {
@@ -433,6 +436,8 @@ header img {
   height: auto;
   margin: 32px 16px 0px 16px;
   background-color: white;
+  transition: background-color 100ms ease-in 75ms, color 100ms ease-in 75ms;
+
 }
 
 .course-item:hover {
@@ -492,6 +497,7 @@ header img {
     margin: 16px 16px 0px 16px;
     background-color: #EAEAEA;
     font-weight: bold;
+    transition: background-color 100ms ease-in 75ms, color 100ms ease-in 75ms;
   }
 
   .course-mobile-item:hover {
@@ -525,6 +531,7 @@ header img {
   height: auto;
   padding: 0px 24px 24px 24px;
   border-right: 1px solid #586994;
+  transition: background-color 100ms ease-in 75ms;
 }
 
 .left-thesis-container:hover {
@@ -560,6 +567,7 @@ video {
   flex-flow: row;
   align-items: center;
   border-bottom: 1px solid #586994;
+  transition: background-color 100ms ease-in 75ms;
 }
 
 .thesis-item:last-child {
