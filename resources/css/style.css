@@ -44,6 +44,11 @@ h5 {
   font-size: 1.2rem;
 }
 
+a {
+  color: #303c6c;
+}
+
+
 a:active {
   color: #DD6E42;
 }
@@ -93,8 +98,18 @@ a:active {
 }
 
 @keyframes textAnim {
-  0%    { opacity: 0; }
-  100%  { opacity: 1; }
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1.1);
+  }
+  100%  {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .left-side-nav {
