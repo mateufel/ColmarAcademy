@@ -22,6 +22,7 @@ html {
 
 body {
   font-family: "Lato", "Helvetica", sans-serif;
+  line-height: 1.2;
   color: #303c6c;
 }
 
@@ -39,7 +40,7 @@ h2 {
   font-size: 1.75rem;
 }
 
-h5 {
+h3 {
   font-family: "Montserrat", "Helvetica", sans-serif;
   font-size: 1.2rem;
 }
@@ -50,7 +51,7 @@ a {
 
 
 a:active {
-  color: #DD6E42;
+  color: #dd2e12;
 }
 
 .general-container {
@@ -59,7 +60,7 @@ a:active {
 }
 
 .read-more {
-  color: #DD6E42;
+  color: #dd2e12;
   font-weight: bold;
   transition: font-size 75ms ease-in 50ms;
 }
@@ -129,7 +130,7 @@ a:active {
 }
 
 .left-side-nav .colmar {
-  color: #DD6E42;
+  color: #dd2e12;
   padding-right: 2px;
 }
 
@@ -159,6 +160,7 @@ a:active {
   .nav-mobile {
     display: flex;
     justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: 64px;
   }
@@ -213,7 +215,7 @@ header img {
 }
 
 .button:hover {
-  background-color: #DD6E42;
+  background-color: #dd2e12;
   transform: scale(1.1);
 }
 
@@ -287,7 +289,7 @@ header img {
 .left-information-box .info-paragraph-small {
   width: 100%;
   font-size: 0.8rem;
-  color: #DD6E42;
+  color: #dd2e12;
   padding-bottom: 8px;
 }
 
@@ -409,8 +411,8 @@ header img {
 }
 
 .courses .general-container{
-  max-width: 100%;
-  margin: 0px 40px;
+  width: 100%;
+  margin: auto;
 }
 
 .courses .general-container h2 {
@@ -422,10 +424,10 @@ header img {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: stretch;
   align-content: flex-start;
-  margin: 0px 32px;
+  margin: 0px 72px;
 }
 
 .course-item {
@@ -445,6 +447,17 @@ header img {
   color: white;
 }
 
+.course-item .course-mid-p {
+  padding: 8px 0px;
+  font-weight: bold;
+  color: #dd2e12;
+  transition: color 100ms ease-in 75ms;
+}
+
+.course-item:hover .course-mid-p {
+  color: #F39081;
+}
+
 .course-item img {
   width: 100%;
   height: auto;
@@ -455,11 +468,7 @@ header img {
   font-size: 0.8rem;
 }
 
-.course-item .course-mid-p {
-  padding: 8px 0px;
-  font-weight: bold;
-  color: #DD6E42;
-}
+
 
 .courses-list-mobile {
   display: none;
